@@ -1,0 +1,41 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SBI Risk Analysis API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      text-align: center;
+      padding-top: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px 24px;
+      font-size: 16px;
+      color: white;
+      background-color: #3498db;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>SBI Risk Analysis Dashboard</h1>
+  <a class="btn" href="/top-high-risk-years">Top High-Risk Years</a>
+  <a class="btn" href="/max-npa-year">Year with Max NPA</a>
+  <a class="btn" href="/risk-distribution">Risk Category Distribution</a>
+  <a class="btn" href="/correlation-analysis">Correlation Analysis</a>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<!-- Sample NiFi flow to watch the data/raw directory -->
+<processGroup>
+  <processor>
+    <name>GetCSV</name>
+    <class>org.apache.nifi.processors.standard.GetFile</class>
+    <property name="Input Directory">./data/raw</property>
+  </processor>
+</processGroup>
